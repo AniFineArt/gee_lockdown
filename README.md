@@ -1,6 +1,5 @@
-This repository contains all the GEE codes for the paper 
-
-Singh, M., Singh, B.B., Singh, R., Upendra, B., Kaur, R., Gill, S.S. and Biswas, M.S., 2021. Quantifying COVID-19 enforced global changes in atmospheric pollutants using cloud computing based remote sensing. Remote Sensing Applications: Society and Environment, 22(100489) 13, https://doi.org/10.1016/j.rsase.2021.100489
+### paper 
+ https://doi.org/10.1016/j.rsase.2021.100489
 
 # NO2 in 2019
 
@@ -54,9 +53,6 @@ sudo apt-get install libgeos-dev
 Install cartoee from source 
 
 While installation an error in proj
-
-In file included from lib/cartopy/trace.cpp:580:
-/home/manmeet/anaconda3/envs/gee/include/proj_api.h:37:2: error: #error 'To use the proj_api.h you must define the macro ACCEPT_USE_OF_DEPRECATED_PROJ_API_H'
 
 Go to the file proj_api.h and add
 
